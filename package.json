@@ -33,6 +33,7 @@
     "multer-minio-storage-engine": "^1.0.0",
     "node-schedule": "^2.0.0",
     "nodemailer": "^6.0.0",
+    "npm": "^7.20.0",
     "officegen": "^0.6.4",
     "randomstring": "^1.1.5",
     "request": "^2.88.0",
@@ -43,5 +44,7 @@
     "xmlbuilder": "^13.0.2",
     "zeromq": "^5.1.0"
   },
-  "engines": {"node" :">=10.0.0"}
+  "engines": {
+    "node": ">=10.0.0"
+  }
 }
