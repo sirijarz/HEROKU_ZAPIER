@@ -60,11 +60,11 @@ router.put('/integrations/zapier/printdata/:email', function(req,res){
 
 
 app.use(router);
-  
-app.listen(PORT, function(err){
-     if (err) console.log(err);
-     console.log("Server listening on PORT", PORT);
- });
+app.listen(process.env.PORT || 3000)
+// app.listen(PORT, function(err){
+//      if (err) console.log(err);
+//      console.log("Server listening on PORT", PORT);
+//  });
 
 
 
